@@ -12,7 +12,7 @@ class OrderSummary extends Component {
                 return (
                 <li key={igKey}>
                     <span style={{textTransform: 'capitalize'}}>{igKey}</span>: {this.props.ingredients[igKey]}
-                    </li>);
+                </li>);
             });
         return (
             <Aux>
